@@ -6,13 +6,13 @@ import org.junit.runners.Suite;
 
 
 
-    @RunWith(Suite.class)
-    @Suite.SuiteClasses({
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
 
-            test1.class,
-            test2.class,
-            test3.class
-    })
+        Test11.class,
+        Test12.class,
+        Test13.class
+})
 /*
 @Test
 public void fun12(){
@@ -20,8 +20,8 @@ public void fun12(){
         }
         */
 
-    public class suite {
+public class Suite2 {
 
-    }
+}
 
 

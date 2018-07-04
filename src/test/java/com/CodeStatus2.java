@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.*;
 
-public class codestatus {
+public class CodeStatus2 {
     @BeforeClass
     public static void setup() {
         useRelaxedHTTPSValidation();//宽松的校验，信任所有https，降低安全机制
@@ -19,7 +19,7 @@ public class codestatus {
     }
 
     @Test
-    public void testassert() {
+    public void testAssert() {
         //given().queryParam(parameterName:"q",...parameterValues:"appium")
         given().queryParam("q", "appium")
 
@@ -31,7 +31,7 @@ public class codestatus {
     }
 
     @Test
-    public void testassert2() {
+    public void testAssert2() {
         given().when().get("https://testerhome.com/api/v3/topics.json").prettyPeek()
                 .then()
                 .statusCode(200).body("topics.title", hasItem("优质招聘汇总"));
