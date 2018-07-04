@@ -44,7 +44,7 @@ public class codestatus {
                 .statusCode(200)
                 // .body("topic.title",equalTo("优质招聘汇总"))
                 .body("topics.title", hasItems("优质招聘汇总"))
-                .body("topics.title[1]", equalTo("优质招聘汇总"))
+                .body("topics.title[1]", equalTo("第四届移动互联网测试开发大会门票转让汇总贴"))
                 // .body("topics.id[-1]", equalTo(14691))
                 .body("topics.findAll{topics ->topics.id==10254}.title", hasItems("优质招聘汇总"))
                 .body("topics.find{topics ->topics.id==10254}.title", equalTo("优质招聘汇总"))
