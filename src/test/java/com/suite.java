@@ -1,10 +1,5 @@
-package com.suite;
+package com;
 
-import com.test.test1;
-import com.test.test2;
-import com.test.test3;
-import org.junit.Before;
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
