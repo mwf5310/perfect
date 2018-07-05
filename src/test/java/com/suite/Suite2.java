@@ -1,5 +1,8 @@
-package com;
+package com.suite;
 
+import com.test.Test11;
+import com.test.Test12;
+import com.test.Test13;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

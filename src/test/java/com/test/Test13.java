@@ -1,4 +1,5 @@
-package com;
+package com.test;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -16,42 +17,43 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
-public class Test11 {
+public class Test13 {
     @BeforeClass
     public static void beforeClass(){
-        System.out.println("This is test1 @beforeClass");
+        System.out.println("This is test3 @beforeClass");
     }
 
     @Before
     public void before(){
-        System.out.println("This is test1 @before");
+        System.out.println("This is test3 @before");
     }
     @Test
     public void fun1(){
-        System.out.println("This is test1 @Test fun1 ");
+        System.out.println("This is test3 @Test fun1 ");
     }
 
 
 
     @Test
     public void fun2(){
-        System.out.println("This is test1 @Test fun2 ");
+        System.out.println("This is test3 @Test fun2 ");
     }
 
 
     @After
     public void after(){
-        System.out.println("This is test1 @After ");
+        System.out.println("This is test3 @After ");
     }
 
     @AfterClass
     public  static  void afterClass(){
-        System.out.println("This is test1 @afterClass ");
+        System.out.println("This is test3 @afterClass ");
     }
 
 
 
 }
+
 
 
 
