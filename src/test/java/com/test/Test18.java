@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
-public class Test11 {
+public class Test18 {
     @BeforeClass
     public static void beforeClass(){
         System.out.println("This is test1 @beforeClass");

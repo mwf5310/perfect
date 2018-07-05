@@ -1,6 +1,6 @@
 package com.suite;
 
-import com.test.Test11;
+import com.test.Test18;
 import com.test.Test12;
 import com.test.Test13;
 import org.junit.runner.RunWith;
@@ -12,7 +12,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 
-        Test11.class,
+        Test18.class,
         Test12.class,
         Test13.class
 })
